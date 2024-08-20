@@ -1,0 +1,2 @@
+copter -2 copter -2 =copter /home/copter /bin/sh - -
+

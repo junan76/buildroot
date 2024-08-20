@@ -1,0 +1,13 @@
+Index: uboot-2023.10/include/configs/am335x_evm.h
+===================================================================
+--- uboot-2023.10.orig/include/configs/am335x_evm.h
++++ uboot-2023.10/include/configs/am335x_evm.h
+@@ -117,7 +117,7 @@
+ 		"if test $board_name = A335BONE; then " \
+ 			"setenv fdtfile am335x-bone.dtb; fi; " \
+ 		"if test $board_name = A335BNLT; then " \
+-			"setenv fdtfile am335x-boneblack.dtb; fi; " \
++			"setenv fdtfile am335x-boneblack-bbbmini.dtb; fi; " \
+ 		"if test $board_name = A335PBGL; then " \
+ 			"setenv fdtfile am335x-pocketbeagle.dtb; fi; " \
+ 		"if test $board_name = BBBW; then " \
